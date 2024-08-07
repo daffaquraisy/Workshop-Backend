@@ -910,19 +910,7 @@ export class PesawatService {
 - add this following script into `pesawat/pesawat.controller.ts`
 
 ```typescript
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Post,
-  Put,
-  Query,
-  SetMetadata,
-  UseFilters,
-  UseGuards,
-} from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { PesawatService } from './pesawat.service';
 import { PesawatDto } from './pesawat.dto';
 
